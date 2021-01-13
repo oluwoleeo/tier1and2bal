@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="5b4e4df1-4fc8-49ce-85fa-a1ecb1d242b6" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://10.2.100.74/fbnalertws/service.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="Service.wsdl" MetadataType="Wsdl" ID="3f0e8a52-dd24-40b1-8104-07ee9386477a" SourceId="1" SourceUrl="http://10.2.100.74/FbnAlertWS/Service.svc?wsdl" />
+    <MetadataFile FileName="Service.xsd" MetadataType="Schema" ID="0b81f184-f6eb-498c-bacc-f8ca32d0fdbf" SourceId="1" SourceUrl="http://10.2.100.74/FbnAlertWS/Service.svc?xsd=xsd2" />
+    <MetadataFile FileName="Service1.xsd" MetadataType="Schema" ID="cf06d532-7e70-423a-b08b-42ab1928967c" SourceId="1" SourceUrl="http://10.2.100.74/FbnAlertWS/Service.svc?xsd=xsd1" />
+    <MetadataFile FileName="Service.disco" MetadataType="Disco" ID="6ae20370-acbf-4fa4-86e0-aa7dc1f21d1f" SourceId="1" SourceUrl="http://10.2.100.74/FbnAlertWS/Service.svc?disco" />
+    <MetadataFile FileName="Service1.wsdl" MetadataType="Wsdl" ID="c8432c2d-3f89-4eae-a4d7-a9feea0c0226" SourceId="1" SourceUrl="http://10.2.100.74/FbnAlertWS/Service.svc?wsdl=wsdl0" />
+    <MetadataFile FileName="Service2.xsd" MetadataType="Schema" ID="6db3fa72-7e39-40b5-8702-f3cc7b4cd349" SourceId="1" SourceUrl="http://10.2.100.74/FbnAlertWS/Service.svc?xsd=xsd0" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
